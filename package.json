@@ -1,0 +1,28 @@
+{
+  "name": "api-twitterclone",
+  "version": "1.0.0",
+  "description": "twitterclone",
+  "main": "index.js",
+  "scripts": {
+    "start ": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobervanSouza/api-twitterclone.git"
+  },
+  "keywords": [],
+  "author": "RobervanSouza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobervanSouza/api-twitterclone/issues"
+  },
+  "homepage": "https://github.com/RobervanSouza/api-twitterclone#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.3",
+    "nodemon": "^2.0.19"
+  }
+}
