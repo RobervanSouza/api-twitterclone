@@ -8,6 +8,6 @@ const conectedDatabase = () => {
       useUnifiedTopology: true,
     })
     .then(() => console.log("MongoDb conectado..."))
-    .catch((err) => console.log(`erro ao conectar bado de dados ${err}`));
+    .catch((err) => console.log(`erro ao conectar com o banco de dados ${err}`));
 };
 module.exports = conectedDatabase;
